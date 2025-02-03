@@ -1,3 +1,3 @@
-# Xin_Chao
+# Xin Chao
 A website that is for the resturant Xin Chao
 
