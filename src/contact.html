@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xin Chao</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-black text-white">
 
@@ -13,7 +16,7 @@
     </nav>
 
     <section class="relative">
-        <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover">
+        <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover opacity-90">
         <h1 class="absolute inset-0 flex items-center justify-center text-5xl text-center font-bold p-[20px]">
             Kontakt oss
         </h1>
@@ -28,6 +31,18 @@
             <div class="mb-10">
                 <p class="font-bold">Adresse</p>
                 <p><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x46416f0da6c0726b:0x59ab1abd94dda9cb?sa=X&ved=1t:8290&ictx=111">Møllergata 42, 0179 Oslo</a></p>
+            </div>
+            <div class="mb-10">
+                <div class="flex flex-col items-start gap-2">
+                    <div class="flex items-center">
+                        <ion-icon class="size-5 mr-2" name="logo-facebook"></ion-icon>
+                        <p><a href="https://www.facebook.com/XinChaoRestauant/?locale=nb_NO">Xin Chao - Restaurant</a></p>
+                    </div>
+                    <div class="flex items-center">
+                        <ion-icon class="size-5 mr-2" name="logo-instagram"></ion-icon>
+                        <p><a href="https://www.instagram.com/xinchao.oslo/">xinchao.oslo</a></p>
+                    </div>
+                </div>
             </div>
             <div>
                 <p class="font-bold mb-5">Åpningstider</p>
@@ -68,6 +83,7 @@
             <iframe class="rounded-2xl w-full "  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+    
 
 </body>
 </html>
