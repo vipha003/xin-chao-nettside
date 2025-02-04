@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xin Chao</title>
     <link href="tailwind.css" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-black text-white">
-
-    <nav class="bg-black h-[64px] flex items-center justify-center sticky top-0 z-99">
-        <p class="text-white text-xl">something here</p>
-    </nav>
+        <nav class="bg-black h-[70px] flex justify-between p-[5px]">
+          <div class="m-[5px]">
+            <a href="/">
+              <img
+                src="images/XinChaoLogoSVGWhite.svg"
+                alt="XinChaoLogoSVG"
+                class="min h-[50px] ml-[5px]"
+              />
+            </a>
+          </div>
+          <div
+            class="flex items-center mr-[20px]">
+            <ul class="flex flex-row text-white m-[5px] items-center gap-[3vw] font-bold">
+              <li class="hover:text-gray-400"><a href="/">Hjem</a></li>
+              <li class="hover:text-gray-400"><a href="/">Meny</a></li>
+              <li class="hover:text-gray-400"><a href="/src/contact.html">Kontakt oss</a></li>
+            </ul>
+          </div>
+        </nav>
 
     <section class="relative">
         <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover">
