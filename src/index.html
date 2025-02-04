@@ -10,9 +10,9 @@
     <link rel="icon" href="/src/images/NewTabLogo.png">
   </head>
 
-  <body>
+  <body class="bg-black">
     <header>
-      <nav id="navbar" class="z-50 fixed bg-black h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
+      <nav id="navbar" class="z-40 fixed bg-black h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
         <div class="m-[5px]">
           <a href="/src/index.html ">
             <img
@@ -37,14 +37,29 @@
       </nav>
     </header>
     <!-- The slide menu -->
-    <div id="slideMenu" class="fixed sm:hidden top-70 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
+    <div id="slideMenu" class="z-30 fixed sm:hidden top-70 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
       <ul class="flex flex-col text-white m-[10px] items-start gap-[4vh] font-bold p-4 mt-[80px]">
         <li class="hover:text-gray-400"><a href="/src/index.html">Hjem</a></li>
         <li class="hover:text-gray-400"><a href="/">Meny</a></li>
         <li class="hover:text-gray-400"><a href="/">Kontakt oss</a></li>
       </ul>
     </div>
+
+    <!-- Hero section -->
+    <section class="relative">
+      <img src="images/contactTopImage.webp" alt="Title Image" class="z-10 w-screen max-h-[700px] object-cover opacity-60">
+      <!-- <h1 class="absolute inset-0 flex items-center justify-center text-5xl text-white font-bold p-[20px]">
+          Kontakt oss
+      </h1> -->
+      <div class="absolute inset-0 flex items-center justify-center text-5xl text-white font-bold p-[20px]">
+        <img src="images/XinChaoLogoSVGWhite.svg" alt="XinChaoLogoSVG" class=" h-[18vw] z-20 mt-[6vh]"/>
+        <!-- <div class="absolute bg-black h-[20vh] w-[490px] rounded-2xl opacity-50"></div> -->
+      </div>
+      
+    </section>
+
     <div class="h-[1000px]"></div>
+
 
     <script src="main.js"></script>
   </body>
