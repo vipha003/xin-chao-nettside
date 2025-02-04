@@ -10,19 +10,20 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-black text-white ">
     <header>
         <nav id="navbar" class="z-40 fixed bg-black h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
-          <div class="m-[5px]">
-            <a href="/src/index.html ">
-              <img
-                src="images/XinChaoLogoSVGWhite.svg"
-                alt="XinChaoLogoSVG"
-                class="h-[50px] ml-[5px]"
-              />
-            </a>
-          </div>
+            <div class="m-[5px]">
+                <a href="/src/index.html ">
+                    <img
+                        src="images/XinChaoLogoSVGWhite.svg"
+                        alt="XinChaoLogoSVG"
+                        class="h-[50px] ml-[5px]"
+                    />
+                </a>
+            </div>
           <!-- Desktop links for the navigationbar -->
           <div class="nav-links hidden sm:flex items-center mr-[20px] left-0">
             <ul class="flex flex-row text-white m-[5px] items-center gap-[3vw] font-bold">
@@ -32,31 +33,31 @@
             </ul>
           </div>
           <!-- The menu icon and close icon -->
-          <div class="flex items-center gap-6 sm:hidden z-30">
+          <div class="flex items-center gap-6 sm:hidden z-30 pr-2">
             <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer text-white"></ion-icon>
           </div>
         </nav>
-      </header>
+    </header>
       <!-- The slide menu -->
-      <div id="slideMenu" class="z-30 fixed sm:hidden top-0 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
+    <aside id="slideMenu" class="z-30 fixed sm:hidden top-0 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
         <ul class="flex flex-col text-white m-[10px] items-start gap-[4vh] font-bold p-4 mt-[80px]">
-          <li class="hover:text-gray-400"><a href="/src/index.html">Hjem</a></li>
-          <li class="hover:text-gray-400"><a href="/">Meny</a></li>
-          <li class="hover:text-gray-400"><a href="/">Kontakt oss</a></li>
+            <li class="hover:text-gray-400"><a href="/src/index.html">Hjem</a></li>
+            <li class="hover:text-gray-400"><a href="/src/meny.html">Meny</a></li>
+            <li class="hover:text-gray-400"><a href="/src/contact.html">Kontakt oss</a></li>
         </ul>
-      </div>
+    </aside>
 
     
 
     <section class="relative">
-        <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover opacity-70 min-h-[400px]">
+        <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover opacity-40 min-h-[400px]">
         <h1 class="absolute inset-0 flex items-center justify-center text-5xl text-center font-bold p-[20px]">
             Kontakt oss
         </h1>
     </section>
 
-    <section class="flex flex-row justify-center w-11/12 max-w-[2000px] m-auto max-lg:flex-col">
-        <div class="flex flex-col p-20 pt-20 w-1/2 max-lg:w-full max-lg:p-5 max-lg:pt-20">
+    <section class="flex flex-row justify-center w-11/12 max-w-[1200px] m-auto max-lg:flex-col">
+        <div class="flex flex-col pr-10 p-20 w-1/2 max-lg:w-full max-lg:p-5 max-lg:pt-20">
             <div class=" mb-10">
                 <p class="font-bold">E-post: <a class="font-normal text-sky-400" href="mailto:elisabethoceanart@hotmail.com">elisabethoceanart@hotmail.com</a></p>
                 <p class="font-bold">Telefon: <a class="font-normal text-sky-400" href="tel:952 23 111">952 23 111</a></p>
@@ -112,7 +113,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col p-20 pt-20 w-1/2 max-lg:w-full max-lg:p-5 self-end">
+        <div class="flex flex-col p-20 pl-10 w-1/2 max-lg:w-full max-lg:p-5 self-end">
             <iframe class="rounded-2xl w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>

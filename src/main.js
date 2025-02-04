@@ -1,22 +1,37 @@
-const navLinks = document.querySelector('.nav-links')
-const slideMenu = document.getElementById('slideMenu')
-const navbar = document.getElementById('navbar')
+const navbar = document.getElementById('navbar');
+let lastScrollTop = 0;
+let hideNavbarTimeout = null;
 
-let lastScrollTop = 0
+document.addEventListener('DOMContentLoaded', function () {
+    navbar.classList.add('navbar-transparent');
+});
+
+window.addEventListener('scroll', function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Make navbar transparent when at the top
+    if (scrollTop === 0) {
+        navbar.classList.add('navbar-transparent');
+    } else {
+        navbar.classList.remove('navbar-transparent');
+    }
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling down - Delay hiding for smoothness
+        clearTimeout(hideNavbarTimeout);
+        hideNavbarTimeout = setTimeout(() => {
+            navbar.classList.add('navbar-hidden');
+        }, 150); 
+    } else {
+        // Scrolling up - Show smoothly
+        clearTimeout(hideNavbarTimeout);
+        navbar.classList.remove('navbar-hidden');
+    }
+
+    lastScrollTop = scrollTop;
+});
 
 function onToggleMenu(e){
     e.name = e.name === 'menu' ? 'close' : 'menu'
     slideMenu.classList.toggle('translate-x-full')
 }
-
-window.addEventListener('scroll', function() {
-    let scrollTop = this.window.pageYOffset || document.documentElement.scrollTop
-    if (scrollTop > lastScrollTop) {
-        //Scrolling down
-        navbar.classList.add('-translate-y-full')
-    } else {
-        //Scrolling up
-        navbar.classList.remove('-translate-y-full')
-    }
-    lastScrollTop = scrollTop
-})

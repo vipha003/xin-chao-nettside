@@ -1,0 +1,18 @@
+#navbar {
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, background-color 0.3s ease-in-out;
+    
+}
+
+.navbar-transparent {
+    background-color: transparent;
+}
+
+.navbar:not(.navbar-transparent) {
+    background-color: black;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+}
