@@ -14,7 +14,7 @@
 </head>
 <body class="bg-[#051118] text-[#FBFFF4] ">
   <header>
-    <nav id="navbar" class="z-40 fixed bg-black h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
+    <nav id="navbar" class="z-40 fixed bg-[#051118] text-[#FBFFF4]   h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
         <div class="m-[5px]">
             <a href="/src/index.html ">
                 <img
@@ -26,7 +26,7 @@
         </div>
       <!-- Desktop links for the navigationbar -->
       <div class="nav-links hidden sm:flex items-center mr-[20px] left-0">
-        <ul class="flex flex-row text-white m-[5px] items-center gap-[3vw] font-bold">
+        <ul class="flex flex-row text-[#FBFFF4] m-[5px] items-center gap-[3vw] font-bold">
           <li class="hover:text-gray-400"><a href="/src/index.html">Hjem</a></li>
           <li class="hover:text-gray-400"><a href="/src/meny.html">Meny</a></li>
           <li class="hover:text-gray-400"><a href="/src/contact.html">Kontakt oss</a></li>
@@ -39,23 +39,22 @@
     </nav>
 </header>
   <!-- The slide menu -->
-<aside id="slideMenu" class="z-30 fixed sm:hidden top-0 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
-    <ul class="flex flex-col text-white m-[15px] items-start gap-[2vh] font-bold p-4 mt-[80px]">
+<aside id="slideMenu" class="z-30 fixed sm:hidden top-0 right-0 h-full 2-64 bg-[#051118] text-[#FBFFF4] opacity-90 transform translate-x-full transition-transform duration-300">
+    <ul class="flex flex-col bg-[#051118] text-[#FBFFF4] m-[15px] items-start gap-[2vh] font-bold p-4 mt-[80px]">
         <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/index.html" class="text-xl">Hjem</a></li>
         <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/meny.html" class="text-xl">Meny</a></li>
         <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/contact.html" class="text-xl">Kontakt oss</a></li>
     </ul>
 </aside>  
 
-    
+<section class="relative">
+    <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover opacity-40 min-h-[400px]">
+    <h1 class="absolute inset-0 flex items-center justify-center text-5xl text-center font-bold p-[20px]">
+        Kontakt oss
+    </h1>
+</section>
 
-    <section class="relative">
-        <img src="images/contactTopImage.webp" alt="Title Image" class="w-screen max-h-[500px] object-cover opacity-40 min-h-[400px]">
-        <h1 class="absolute inset-0 flex items-center justify-center text-5xl text-center font-bold p-[20px]">
-            Kontakt oss
-        </h1>
-    </section>
-
+<main class="loadAnimation">
     <section class="flex flex-row justify-center w-14/15 max-w-[1800px] m-auto max-md:flex-col">
         <div class="flex flex-col pr-10 p-20 w-1/2 max-md:w-full max-md:p-10">
             <div class=" mb-10">
@@ -80,7 +79,7 @@
             </div>
             <div>
                 <p class="font-bold mb-5">Åpningstider</p>
-                <div class="bg-[#0E202F] p-5 w-100 rounded-2xl w-full">
+                <div class="bg-[#0E202F95] p-5 w-100 rounded-2xl w-full">
                     <div class="flex justify-between border-b-1 p-2 pt-0 border-black">
                         <p>Mandag</p>
                         <p>Stengt</p>
@@ -112,11 +111,13 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="flex flex-col p-20 pl-10 w-1/2 max-md:w-full max-md:p-10 max-md:pt-0 self-end">
-            <iframe class="rounded-2xl w-full bg-[#0E202F]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="rounded-2xl w-full bg-[#0E202F95]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+</main>
+
     
     <script src="main.js"></script>
 </body>
