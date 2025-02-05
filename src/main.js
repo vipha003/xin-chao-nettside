@@ -1,4 +1,5 @@
 const navbar = document.getElementById('navbar');
+const main = document.getElementById("main")
 let lastScrollTop = 0;
 let hideNavbarTimeout = null;
 
