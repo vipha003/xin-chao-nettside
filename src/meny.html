@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-black">
+    <header>
+        <nav id="navbar" class="z-40 fixed bg-black h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
+            <div class="m-[5px]">
+                <a href="/src/index.html ">
+                    <img
+                        src="images/XinChaoLogoSVGWhite.svg"
+                        alt="XinChaoLogoSVG"
+                        class="h-[50px] ml-[5px]"
+                    />
+                </a>
+            </div>
+          <!-- Desktop links for the navigationbar -->
+          <div class="nav-links hidden sm:flex items-center mr-[20px] left-0">
+            <ul class="flex flex-row text-white m-[5px] items-center gap-[3vw] font-bold">
+              <li class="hover:text-gray-400"><a href="/src/index.html">Hjem</a></li>
+              <li class="hover:text-gray-400"><a href="/src/meny.html">Meny</a></li>
+              <li class="hover:text-gray-400"><a href="/src/contact.html">Kontakt oss</a></li>
+            </ul>
+          </div>
+          <!-- The menu icon and close icon -->
+          <div class="flex items-center gap-6 sm:hidden z-30 pr-2">
+            <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer text-white"></ion-icon>
+          </div>
+        </nav>
+    </header>
+      <!-- The slide menu -->
+    <aside id="slideMenu" class="z-30 fixed sm:hidden top-0 right-0 h-full 2-64 bg-black opacity-90 transform translate-x-full transition-transform duration-300">
+        <ul class="flex flex-col text-white m-[15px] items-start gap-[2vh] font-bold p-4 mt-[80px]">
+            <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/index.html" class="text-xl">Hjem</a></li>
+            <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/meny.html" class="text-xl">Meny</a></li>
+            <li class="hover:text-gray-400 w-full h-[40px]"><a href="/src/contact.html" class="text-xl">Kontakt oss</a></li>
+        </ul>
+    </aside>
+
+        
+    <div class="bg-[url(/src/images/VietnamFood2backgroundXin_Chao.png)] h-100 ww-full bg-cover bg-center opacity-50">
+
+    </div>
+    <center>
+        <h1 class="text-4xl sm:text-5xl center mt-60 text-white absolute inset-0 font-bold h-10">Meny
+        </h1>
+    </center>
+    <div class="ww-full h-15 flex justify-center">
+        <h1 class="py-4 justify-center flex bg-gradient-to-r items-center from-red-400 via-yellow-500 to-green-400 bg-clip-text text-5xl font-extrabold text-transparent text-center select-auto self-center">Spesialer</h1>
+    </div>
+    <div class="ww-5/6 h-5/6 flex flex-row justify-around items-center"> 
+
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center transition-transform duration-30 hover:scale-120">
+            <div class="ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Bun_Bo_Xao_Cha_Gio.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Bun Bo Xao Cha Gio</p>
+            <p class="text-xs self-center">Sitrongress og chili marinert indrefilet av storfe med vermicelli nudler, bønnespirer, agurk, løk, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus og kylling våruller.</p>
+        </div>
+        
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center transition-transform duration-30 hover:scale-120">
+            <div class="bg-black ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Bun_bo_hue.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Bun Bo hue</p>
+            <p class="text-xs self-center">Umami langtids kokt krydder kraft av okse, kylling og svin. Serveres med vermicelli nudler, toppet med langtidsbraisert storfekjøtt, svinekjøtt, vietnamesiske kyllingpølser og urter.</p>
+        </div>
+        
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center transition-transform duration-30 hover:scale-120">
+            <div class="bg-black ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Fried_spring_roll_chicken.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Fried Spring Roll Chicken</p>
+            <p class="text-xs self-center">2 stk. sommerruller fylt med scampi, egg, ris, nudler, salat, agurk og urter. Serveres med hjemmelaget hoisinsaus.</p>
+        </div>
+    </div>
+    <!-- NESTE KATEGORI -->
+
+    <div class="ww-full h-15 flex justify-center">
+        <h1 class="py-4 justify-center flex bg-gradient-to-r items-center from-red-400 via-yellow-500 to-green-400 bg-clip-text text-5xl font-extrabold text-transparent text-center select-auto self-center">Forretter</h1>
+    </div>
+    <div class="ww-5/6 h-5/6 flex flex-row justify-around items-center"> 
+        
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center">
+            <div class="ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Bun_Bo_Xao_Cha_Gio.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Bun Bo Xao Cha Gio </p>
+        </div>
+        
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center">
+            <div class="bg-black ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Bun_bo_hue.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Bun Bo hue</p>
+        </div>
+        
+        <div class="w-2/8 sm:h-75 h-60 bg-gray-500 rounded-xl text-center">
+            <div class="bg-black ww-full h-4/6 rounded-xl rounded-b-none bg-[url(/src/images/Sommerruller_med_Scampi.png)] bg-cover bg-center bg-white">
+            </div>
+            <p class="text-2xl self-center">Sommerruller med scampi</p>
+            <p class="text-xs self-center">transition-transform duration-30 hover:scale-120</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
