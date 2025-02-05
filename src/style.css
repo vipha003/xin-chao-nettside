@@ -16,3 +16,23 @@
     opacity: 0;
     pointer-events: none;
 }
+
+.loadAnimation {
+    position: relative;
+    -webkit-animation-name: loadAnimation;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-name: loadAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes loadAnimation {
+    from { bottom: -100px; opacity: 0; } 
+    to { bottom: 0; opacity: 1; }
+}
+
+@keyframes loadAnimation { 
+    from { bottom: -100px; opacity: 0; } 
+    to { bottom: 0; opacity: 1; }
+}
