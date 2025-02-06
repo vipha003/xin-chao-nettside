@@ -30,7 +30,7 @@ For å sette opp nettsiden lokalt, følg disse stegene:
 
 2. Naviger til prosjektmappen:
    ```bash
-   cd xin-chao-restaurant
+   cd xin-chao-nettside/src
 
 3. Installer avhengigheter:
    ```bash
