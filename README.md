@@ -48,7 +48,7 @@ Besøk nettsiden for å se menyen, finne kontaktinformasjon og se kartet med res
 
 Dette prosjektet er bygget med følgende teknologier:
 
-- Frontend: HTML, CSS (Tailwind CSS), JavaScript
-- Google Maps: For kartintegrasjon
-- Hosting: Vercel
-- Versjonskontroll: GitHub
+- **Frontend:** HTML, CSS (Tailwind CSS), JavaScript
+- **Google Maps:** For kartintegrasjon
+- **Hosting:** Vercel
+- **Versjonskontroll:** GitHub
