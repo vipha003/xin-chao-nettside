@@ -1,16 +1,16 @@
 const navbar = document.getElementById('navbar');
-const main = document.getElementById("main")
+const slideMenu = document.getElementById('slideMenu');
+const menuIcon = document.querySelector('ion-icon[name="menu"]');
 let lastScrollTop = 0;
 let hideNavbarTimeout = null;
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     navbar.classList.add('navbar-transparent');
 });
 
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    // Make navbar transparent when at the top
     if (scrollTop === 0) {
         navbar.classList.add('navbar-transparent');
     } else {
@@ -18,13 +18,11 @@ window.addEventListener('scroll', function () {
     }
 
     if (scrollTop > lastScrollTop) {
-        // Scrolling down - Delay hiding for smoothness
         clearTimeout(hideNavbarTimeout);
         hideNavbarTimeout = setTimeout(() => {
             navbar.classList.add('navbar-hidden');
-        }, 150); 
+        }, 150);
     } else {
-        // Scrolling up - Show smoothly
         clearTimeout(hideNavbarTimeout);
         navbar.classList.remove('navbar-hidden');
     }
@@ -32,7 +30,10 @@ window.addEventListener('scroll', function () {
     lastScrollTop = scrollTop;
 });
 
-function onToggleMenu(e){
-    e.name = e.name === 'menu' ? 'close' : 'menu'
-    slideMenu.classList.toggle('translate-x-full')
+function onToggleMenu(e) {
+    const isOpen = slideMenu.classList.toggle('translate-x-full');
+
+    e.name = isOpen ? 'menu' : 'close';
+
+    document.body.classList.toggle('overflow-hidden', !isOpen);
 }
