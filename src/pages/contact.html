@@ -16,7 +16,7 @@
 <body class="bg-[#051118] text-[#FBFFF4]">
     <header>
         <nav id="navbar"
-            class="opacity-95 z-40 fixed bg-[#051118] h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
+            class="opacity-95 z-20 fixed bg-[#051118] h-[70px] w-full flex justify-between p-[5px] overflow-auto transition-transform duration-300">
             <div class="m-[5px]">
                 <a href="../">
                     <img src="../assets/images/XinChaoLogoSVGWhite.svg" alt="XinChaoLogoSVG"
@@ -73,7 +73,7 @@
 
     <main class="loadAnimation">
         <section class="flex flex-row justify-center w-14/15 min-w-[300px] max-w-[1800px] m-auto max-md:flex-col">
-            <div class="flex flex-col pr-10 p-20 w-1/2 max-md:w-full max-md:p-10">
+            <div class="flex flex-col pr-10 p-20 w-1/2 max-md:w-full max-md:p-5">
                 <div class=" mb-10">
                     <p class="font-bold">E-post: <a class="font-normal text-sky-400"
                             href="mailto:elisabethoceanart@hotmail.com">elisabethoceanart@hotmail.com</a></p>
@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col p-20 pl-10 w-1/2 max-md:w-full max-md:p-10 max-md:pt-0 self-end">
+            <div class="flex flex-col p-20 pl-10 w-1/2 max-md:w-full max-md:p-5 max-md:pt-0 self-end">
                 <iframe class="rounded-2xl w-full bg-[#0E202F95]"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -146,30 +146,49 @@
     </main>
 
 
-    <footer class="bg-[#0E202F95] text-[#FBFFF4] p-8 mt-50">
-        <div class="max-w-screen-xl mx-auto text-center">
-          <div class="flex justify-center gap-6 mb-6">
-            <a href="https://www.facebook.com/XinChaoRestauant/?locale=nb_NO" target="_blank" class="hover:text-gray-400">
-              <ion-icon name="logo-facebook" class="text-3xl"></ion-icon>
-            </a>
-            <a href="https://www.instagram.com/xinchao.oslo/" target="_blank" class="hover:text-gray-400">
-              <ion-icon name="logo-instagram" class="text-3xl"></ion-icon>
-            </a>
-          </div>
-          <div class="mb-10">
-            <p class="font-bold">E-post: <a class="font-normal text-sky-400" href="mailto:elisabethoceanart@hotmail.com">elisabethoceanart@hotmail.com</a></p>
-            <p class="font-bold">Telefon: <a class="font-normal text-sky-400" href="tel:95223111">952 23 111</a></p>
-          </div>
-      
-          <div class="mb-10">
-            <p class="font-bold">Adresse</p>
-            <p><a class="hover:text-gray-400" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x46416f0da6c0726b:0x59ab1abd94dda9cb?sa=X&ved=1t:8290&ictx=111">Møllergata 42, 0179 Oslo</a></p>
-          </div>
-          <div>
-            <p>Xin Chao Restaurant Oslo</p>
-          </div>
+    <footer class="bg-[#0E202F] text-[#FBFFF4] py-12 px-6 mt-20">
+        <div
+            class="max-w-screen-xl w-full mx-auto grid grid-cols-1 gap-8 text-center md:text-left md:grid-cols-3 px-6 md:px-20">
+            <div class="flex flex-col items-center md:items-start">
+                <p class="font-bold text-xl mb-3">Følg oss</p>
+                <div class="flex gap-5">
+                    <a href="https://www.facebook.com/XinChaoRestauant/?locale=nb_NO" target="_blank"
+                        class="hover:text-gray-400 transition-colors duration-200" aria-label="Facebook">
+                        <ion-icon name="logo-facebook" class="text-3xl"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/xinchao.oslo/" target="_blank"
+                        class="hover:text-gray-400 transition-colors duration-200" aria-label="Instagram">
+                        <ion-icon name="logo-instagram" class="text-3xl"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+                <p class="font-bold text-xl mb-3">Kontakt oss</p>
+                <p>E-post:
+                    <a class="text-sky-400 hover:underline" href="mailto:elisabethoceanart@hotmail.com">
+                        elisabethoceanart@hotmail.com
+                    </a>
+                </p>
+                <p>Telefon:
+                    <a class="text-sky-400 hover:underline" href="tel:95223111">
+                        952 23 111
+                    </a>
+                </p>
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+                <p class="font-bold text-xl mb-3">Finn oss</p>
+                <p>
+                    <a class="hover:text-gray-400 transition-colors duration-200"
+                        href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x46416f0da6c0726b:0x59ab1abd94dda9cb?sa=X&ved=1t:8290&ictx=111">
+                        Møllergata 42, 0179 Oslo
+                    </a>
+                </p>
+            </div>
         </div>
-      </footer>
+        <div class="border-t border-gray-600 mt-10 pt-5 text-center text-sm">
+            <p>&copy; 2025 Xin Chao Restaurant Oslo. Alle rettigheter forbeholdes.</p>
+        </div>
+    </footer>
 
     <script src="../assets/js/main.js"></script>
 </body>
