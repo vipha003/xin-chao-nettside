@@ -20,6 +20,8 @@ Prosjektet er laget ved hjelp av **Tailwind CSS**, som gir et fleksibelt og effe
 
 Nettsiden er hostet på **Vercel** og koden er tilgjengelig på **GitHub**.
 
+Du kan besøke nettsiden her: [https://xin-chao-restaurant.vercel.app](https://xin-chao-restaurant.vercel.app)
+
 ## Installasjon
 
 For å sette opp nettsiden lokalt, følg disse stegene:
