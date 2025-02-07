@@ -54,3 +54,8 @@
         opacity: 1;
     }
 }
+
+.scrollbar-hidden {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
