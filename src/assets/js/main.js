@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('scroll', () => {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrollTop === 0) {
+    if (scrollTop < 10) {
         navbar.classList.add('navbar-transparent');
     } else {
         navbar.classList.remove('navbar-transparent');
