@@ -17,12 +17,13 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('navbar-transparent');
     }
 
-    if (scrollTop > lastScrollTop) {
+
+    if (scrollTop > lastScrollTop + 50) {
         clearTimeout(hideNavbarTimeout);
         hideNavbarTimeout = setTimeout(() => {
             navbar.classList.add('navbar-hidden');
-        }, 150);
-    } else {
+        }, 200);
+    } else if (scrollTop < lastScrollTop - 50) {
         clearTimeout(hideNavbarTimeout);
         navbar.classList.remove('navbar-hidden');
     }
