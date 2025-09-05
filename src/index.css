@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-target {
+  scroll-margin-top: 200px;
+
+}
+
+body {
+  background-color: #051118;
+  color: #FBFFF4;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#navbar {
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.navbar:not(.navbar-transparent) {
+  background-color: black;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loadAnimation {
+  position: relative;
+  animation: loadAnimation 1s cubic-bezier(0.3, 0.7, 0.4, 1) forwards;
+  overflow: visible;
+}
+
+.card {
+  overflow: visible;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes loadAnimation {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.fadeIn {
+  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+

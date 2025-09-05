@@ -1,0 +1,244 @@
+[
+  {
+    "category": "Populært",
+    "items": [
+      {
+        "id": "bun-bo-xao-cha-gio",
+        "name": "Bun Bo Xao Cha Gio",
+        "description": "Sitrongress og chili marinert indrefilet av storfe med vermicelli nudler, bønnespirer, agurk, løk, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus og kylling våruller.",
+        "price": 239,
+        "image": "../assets/images/meny/Bun_Bo_Xao_Cha_Gio.png"
+      },
+      {
+        "id": "bun-bo-hue",
+        "name": "Bun Bo Hue",
+        "description": "Umami langtids kokt krydder kraft av okse, kylling og svin. Serveres med vermicelli nudler, toppet med langtidsbraisert storfekjøtt, svinekjøtt, vietnamesiske kyllingpølser og urter.",
+        "price": 229,
+        "image": "../assets/images/meny/Bun_bo_hue.png"
+      },
+      {
+        "id": "pho-bo",
+        "name": "Pho Bo",
+        "description": "Tradisjonell vietnamesisk rett med mye smak. Langtidskokt kraft av okse, risnudler, toppet med indrefilet av storfe, langtidsbraisert storfekjøtt storfekjøttboller og urter.",
+        "price": 209,
+        "image": "../assets/images/meny/phoBo.png"
+      },
+      {
+        "id": "bun-cha-ha-noi",
+        "name": "Bun Cha Ha Noi",
+        "description": "Nord-vietnamesisk rett med grillet svinekjøtt, kjøttboller, vermicelli nudler, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus.",
+        "price": 239,
+        "image": "../assets/images/meny/bunChaHaNoi.png"
+      },
+      {
+        "id": "sommerruller-med-scampi",
+        "name": "Sommerruller med scampi",
+        "description": "2 stk. sommerruller fylt med scampi, egg, ris, nudler, salat, agurk og urter. Serveres med hjemmelaget hoisinsaus.",
+        "price": 125,
+        "image": "../assets/images/meny/Sommerruller_med_Scampi.png"
+      },
+      {
+        "id": "banh-mi-storfe",
+        "name": "Banh Mi Storfe",
+        "description": "Vietnamesisk baguette med langtidsbraisert oksekjøtt, syltet gulrot og reddik, smør, majones, agurk og koriander.",
+        "price": 145,
+        "image": "../assets/images/meny/banhMiStorfe.png"
+      },
+      {
+        "id": "fried-spring-roll-chicken",
+        "name": "Fried Spring Roll Chicken",
+        "description": "2 stk. friterte vårruller med kylling, glassnudler, sort sopp, gulrot og urter. Serveres med sweet chilisaus.",
+        "price": 139,
+        "image": "../assets/images/meny/Fried_spring_roll_chicken.png"
+      }
+    ]
+  },
+  {
+    "category": "Forretter",
+    "items": [
+      {
+        "id": "sommerruller-med-scampi-foretter",
+        "name": "Sommerruller med scampi",
+        "description": "2 stk. sommerruller fylt med scampi, egg, ris, nudler, salat, agurk og urter. Serveres med hjemmelaget hoisinsaus.",
+        "price": 125,
+        "image": "../assets/images/meny/Sommerruller_med_Scampi.png"
+      },
+      {
+        "id": "goi-du-du",
+        "name": "Goi Du Du",
+        "description": "Sursøt vietnamesisk salat med knasende sprø papaya, mango, scampi, blandet med sursøt chilifiskesaus. Toppet med urter og peanøtter.",
+        "price": 155,
+        "image": "../assets/images/meny/goiDuDu.png"
+      },
+      {
+        "id": "wontonsuppe",
+        "name": "Wontonsuppe",
+        "description": "Wontonsuppe med scampi- og kyllingdumplings, langtidskokt kyllingkraft, vietnamesisk kyllingkake. Toppet med urter.",
+        "price": 109,
+        "image": "../assets/images/meny/wontonSuppe.png"
+      },
+      {
+        "id": "fried-spring-roll-chicken-foretter",
+        "name": "Fried Spring Roll Chicken",
+        "description": "2 stk. friterte vårruller med kylling, glassnudler, sort sopp, gulrot og urter. Serveres med sweet chilisaus.",
+        "price": 139,
+        "image": "../assets/images/meny/Fried_spring_roll_chicken.png"
+      },
+      {
+        "id": "fried-spring-roll-vegetar",
+        "name": "Fried Spring Roll Vegetar",
+        "description": "2 stk. friterte vårruller med tofu, glassnudler, sort sopp, gulrot og urter. Serveres med sweet chilisaus.",
+        "price": 139,
+        "image": "../assets/images/meny/friedSpringRollVegetar.png"
+      },
+      {
+        "id": "tempura-scampi",
+        "name": "Tempura Scampi",
+        "description": "3 stk innbakt scampi med sweet chilisaus.",
+        "price": 109,
+        "image": "../assets/images/meny/tempuraScampi.png"
+      },
+      {
+        "id": "cha-thap-cam",
+        "name": "Cha Thap Cam",
+        "description": "Vietnamesisk pølsemiks av scampikake, kyllingkake og svinekjøtt pølser. Serveres med syltede grønnsaker.",
+        "price": 169,
+        "image": "../assets/images/meny/chaThapCam.png"
+      }
+    ]
+  },
+  {
+    "category": "Baguetter",
+    "items": [
+      {
+        "id": "banh-mi-kylling",
+        "name": "Banh Mi Kylling",
+        "description": "Vietnamesisk baguette med kylling, omelett, paté, smør, majones, syltet gulrot og reddik, koriander og agurk. Serveres med huset søt chili soyasaus.",
+        "price": 139,
+        "image": "../assets/images/meny/banhMiKylling.png"
+      },
+      {
+        "id": "banh-mi-storfe-baguette",
+        "name": "Banh Mi Storfe",
+        "description": "Vietnamesisk baguette med langtidsbraisert oksekjøtt, syltet gulrot og reddik, smør, majones, agurk og koriander.",
+        "price": 145,
+        "image": "../assets/images/meny/banhMiStorfe.png"
+      },
+      {
+        "id": "banh-mi-omelett",
+        "name": "Banh Mi Omelett",
+        "description": "Vietnamesisk baguette med grillet svinekjøtt, majones, syltet gulrot og reddik, agurk og koriander. Serveres med huset søt chili soyasaus.",
+        "price": 145,
+        "image": "../assets/images/meny/banhMiOmelett.png"
+      }
+    ]
+  },
+  {
+    "category": "Hovedretter",
+    "items": [
+      {
+        "id": "bun-cha-ha-noi-main",
+        "name": "Bun Cha Ha Noi",
+        "description": "Nord-vietnamesisk rett med grillet svinekjøtt, kjøttboller, vermicelli nudler, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus.",
+        "price": 239,
+        "image": "../assets/images/meny/bunChaHaNoi.png"
+      },
+      {
+        "id": "bun-bo-xao-cha-gio-main",
+        "name": "Bun Bo Xao Cha Gio",
+        "description": "Sitrongress og chili marinert indrefilet av storfe med vermicelli nudler, bønnespirer, agurk, løk, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus og kylling våruller.",
+        "price": 239,
+        "image": "../assets/images/meny/Bun_Bo_Xao_Cha_Gio.png"
+      },
+      {
+        "id": "vegan-noodle-bowl",
+        "name": "Vegan Noodle Bowl",
+        "description": "Vermicelli-nudler med friterte vegetarvåruller, syltet gulrot og reddik, bønnespirer, agurk, salat. Toppet med friske urter. Serveres med husets sweet chili soyasaus.",
+        "price": 199,
+        "image": "../assets/images/meny/veganNoodleBowl.png"
+      },
+      {
+        "id": "bun-cha-tom-cha-gio",
+        "name": "Bun Cha Tom Cha Gio",
+        "description": "Vietnamesisk scampikake med vermicelli nudler, bønnespirer, agurk, løk, syltet gulrot og reddik, peanøtter, salat og urter. Serveres med huset sursøt chili fiskesaus og kylling våruller.",
+        "price": 239,
+        "image": "../assets/images/meny/bunChaTomChaGio.png"
+      },
+      {
+        "id": "pho-bo-main",
+        "name": "Pho Bo",
+        "description": "Tradisjonell vietnamesisk rett med mye smak. Langtidskokt kraft av okse, risnudler, toppet med indrefilet av storfe, langtidsbraisert storfekjøtt storfekjøttboller og urter.",
+        "price": 209,
+        "image": "../assets/images/meny/phoBo.png"
+      },
+      {
+        "id": "bun-bo-hue-main",
+        "name": "Bun Bo Hue",
+        "description": "Umami langtids kokt krydder kraft av okse, kylling og svin. Serveres med vermicelli nudler, toppet med langtidsbraisert storfekjøtt, svinekjøtt, vietnamesiske kyllingpølser og urter.",
+        "price": 229,
+        "image": "../assets/images/meny/Bun_bo_hue.png"
+      },
+      {
+        "id": "banh-xeo",
+        "name": "Banh Xeo",
+        "description": "Vietnamesisk sprø rispannekaker fylt med scampi, svinekjøtt og bønnespirer. Serveres med salat, friske urter og sursøt chili fiskesaus dip.",
+        "price": 239,
+        "image": "../assets/images/meny/banhXeo.png"
+      }
+    ]
+  },
+  {
+    "category": "Drikker",
+    "items": [
+      {
+        "id": "pepsi",
+        "name": "Pepsi",
+        "description": "0.5l",
+        "price": 45,
+        "image": "../assets/images/meny/pepsi05.png"
+      },
+      {
+        "id": "pepsi-max",
+        "name": "Pepsi Max",
+        "description": "0.5l",
+        "price": 45,
+        "image": "../assets/images/meny/pepsiMax05.png"
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "description": "0.5l",
+        "price": 45,
+        "image": "../assets/images/meny/solo05.png"
+      },
+      {
+        "id": "7up-free",
+        "name": "7up Free",
+        "description": "0.5l",
+        "price": 45,
+        "image": "../assets/images/meny/7upFree05.png"
+      },
+      {
+        "id": "eplemost",
+        "name": "Eplemost",
+        "description": "0.5l",
+        "price": 45,
+        "image": "../assets/images/meny/eplemost05.png"
+      },
+      {
+        "id": "vietnamesisk-iskaffe",
+        "name": "Vietnamesisk Iskaffe",
+        "description": "Vietnamesisk iskaffe.",
+        "price": 75,
+        "image": "../assets/images/meny/iskaffe.png"
+      },
+      {
+        "id": "soda-chanh-duong-da",
+        "name": "Soda Chanh Duong Da",
+        "description": "Lemonade med kullsyre.",
+        "price": 79,
+        "image": "../assets/images/meny/lemonade.png"
+      }
+    ]
+  }
+]

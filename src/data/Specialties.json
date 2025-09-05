@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bun Bo Xao Cha Gio",
+    "img": "assets/images/meny/bunBoXaoChaGio.png",
+    "link": "/meny#bun-bo-xao-cha-gio"
+  },
+  {
+    "name": "Pho Bo",
+    "img": "assets/images/meny/phoBo.png",
+    "link": "/meny#pho-bo-main"
+  },
+  {
+    "name": "Bun Bo Hue",
+    "img": "assets/images/meny/Bun_bo_hue.png",
+    "link": "/meny#bun-bo-hue-main"
+  },
+  {
+    "name": "Vegan Noodle Bowl",
+    "img": "assets/images/meny/veganNoodleBowl.png",
+    "link": "/meny#vegan-noodle-bowl"
+  },
+  {
+    "name": "Tempura Scampi",
+    "img": "assets/images/meny/tempuraScampi.png",
+    "link": "/meny#tempura-scampi"
+  },
+  {
+    "name": "Fried Spring Roll Chicken",
+    "img": "assets/images/meny/Fried_spring_roll_chicken.png",
+    "link": "/meny#fried-spring-roll-chicken"
+  },
+  {
+    "name": "Bun Cha Tom Cha Gio",
+    "img": "assets/images/meny/bunChaTomChaGio.png",
+    "link": "/meny#bun-cha-tom-cha-gio"
+  }
+]
