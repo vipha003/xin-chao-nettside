@@ -1,6 +1,7 @@
 [
   {
     "category": "Populært",
+    "id": "populaert",
     "items": [
       {
         "id": "bun-bo-xao-cha-gio",
@@ -55,6 +56,7 @@
   },
   {
     "category": "Forretter",
+    "id": "forretter",
     "items": [
       {
         "id": "sommerruller-med-scampi-foretter",
@@ -109,6 +111,7 @@
   },
   {
     "category": "Baguetter",
+    "id": "baguetter",
     "items": [
       {
         "id": "banh-mi-kylling",
@@ -135,6 +138,7 @@
   },
   {
     "category": "Hovedretter",
+    "id": "hovedretter",
     "items": [
       {
         "id": "bun-cha-ha-noi-main",
@@ -189,6 +193,7 @@
   },
   {
     "category": "Drikker",
+    "id": "drikker",
     "items": [
       {
         "id": "pepsi",

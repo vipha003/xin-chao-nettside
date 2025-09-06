@@ -47,7 +47,10 @@ const Contact = () => {
             <div className="mb-10">
               <div className="flex flex-col items-start gap-2">
                 <div className="flex items-center">
-                  <ion-icon className="size-5 mr-2" name="logo-facebook"></ion-icon>
+                  <ion-icon
+                    className="size-5 mr-2"
+                    name="logo-facebook"
+                  ></ion-icon>
                   <p>
                     <a
                       className="hover:text-gray-400"
@@ -110,6 +113,7 @@ const Contact = () => {
 
           <div className="flex flex-col p-20 pl-10 w-1/2 max-md:w-full max-md:p-5 max-md:pt-0 self-end">
             <iframe
+              alt="map"
               className="rounded-2xl w-full bg-[#0E202F95]"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1999.8512802663256!2d10.7507092!3d59.9180155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f0da6c0726b%3A0x59ab1abd94dda9cb!2zWGluIGNow6Bv!5e0!3m2!1sno!2sno!4v1738610932790!5m2!1sno!2sno"
               width="600"

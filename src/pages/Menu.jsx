@@ -16,12 +16,32 @@ const Menu = () => {
       </section>
 
       <section className="loadAnimation justify-center w-14/15 min-w-[300px] max-w-[1800px] m-auto mb-44">
+        <section className="flex flex-wrap gap-4 max-sm:gap-0 mx-20 max-md:mx-5 justify-center mt-24 max-sm:flex-col">
+          {menuData.map((category) => (
+            <a
+              key={category.id}
+              href={`#${category.id}`}
+              className="flex items-center justify-between bg-[#0E202F95] max-sm:mb-5 font-bold py-3 px-10 max-sm:px-5 w-auto max-sm:w-full rounded-lg shadow-md hover:bg-[#26507295] text-center transition-all duration-300"
+            >
+              <div className="flex items-center">
+                <p className="truncate">{category.category}</p>
+              </div>
+              <div className="flex items-center">
+                <ion-icon
+                  className="text-2xl ml-2 sm:hidden"
+                  name="arrow-forward-circle-outline"
+                ></ion-icon>
+              </div>
+            </a>
+          ))}
+        </section>
+
         <div className="p-20 max-md:px-5">
           {menuData.map((category) => (
             <div key={category.category}>
               <div
-                className="w-full h-16 flex justify-start mt-10  mt-15 max-sm:flex-col"
-                id={category.category.toLowerCase()}
+                className="w-full h-16 flex justify-start mt-10  mt-15 max-sm:flex-col scroll-target"
+                id={category.id}
               >
                 <h1 className="text-3xl font-extrabold text-[#FBFFF4]">
                   {category.category}
