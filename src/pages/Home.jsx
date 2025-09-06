@@ -65,8 +65,8 @@ const Home = () => {
             </div>
 
             {/* Scroll container */}
-            <div className="overflow-x-auto scrollbar-hidden mb-60 ">
-              <div className="flex gap-4 snap-x snap-mandatory px-20 max-md:px-5">
+            <div className="overflow-x-auto scrollbar-hidden mb-60 px-20 max-md:px-5">
+              <div className="flex gap-4 snap-x snap-mandatory">
                 {Specialties.map((item, index) => (
                   <a
                     key={index}
@@ -87,6 +87,7 @@ const Home = () => {
                     </div>
                   </a>
                 ))}
+                <div className="shrink-0 w-20 max-md:w-1" />
               </div>
             </div>
           </div>
