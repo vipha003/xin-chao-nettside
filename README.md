@@ -32,7 +32,7 @@ For å sette opp nettsiden lokalt, følg disse stegene:
 
 2. Naviger til prosjektmappen:
    ```bash
-   cd xin-chao-nettside/src
+   cd xin-chao-nettside
 
 3. Installer avhengigheter:
    ```bash
